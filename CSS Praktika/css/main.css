@@ -1,0 +1,90 @@
+.hoverpink:hover{
+    color: #090808;
+    text-decoration: none;
+    text-shadow: 5px 0 10px #ffffff;
+}
+.hoverpink{
+    color: #ffffff;
+
+
+}
+.hoverpink2:hover{
+    color: #f30505;
+    text-decoration: none;
+    text-shadow: 5px 0 10px #ffffff;
+}
+.hoverpink2{
+    color: #ffffff;
+}
+.hoverpink3:hover{
+    color: #f30505;
+    text-decoration: none;
+    text-shadow: 5px 0 10px #504057;
+}
+.hoverpink3{
+    color: #685e52;
+}
+.text-3{
+    color: #685e52;
+}
+.button-h:hover{
+    background-color: rgba(255, 0,150,1 );
+    color: black;
+}
+.button{
+    background-color: #685e52;
+    color: white;
+}
+.hoverblack:hover{
+  color: black;
+    text-shadow: none;
+}
+.hoverblack{
+    color: gainsboro;
+    text-shadow: 10px 10px 10px;
+}
+.gradient{
+    background: linear-gradient(270deg,lightgray 10%, #a20027 90%);
+}
+.hovershadow{
+    text-shadow: 10px 10px 10px;
+}
+.gradientupguz{
+    background: linear-gradient(180deg,lightgray, pink);
+}
+.card-shadow:hover{
+    box-shadow: 5px 10px 10px #b40000;
+}
+.buttonmenu{
+    display: block;
+    box-sizing: border-box;
+}
+.buttonhover{
+    background: linear-gradient(270deg,lightgray 10%, #a20027 90%);
+    color:white;
+}
+.buttonhover:hover{
+    background-color: black;
+    color: white;
+}
+
+.loader-item{
+
+    top: 0;
+    left: 0;
+    animation-name: loader;
+    animation-duration:30s;
+    animation-delay: 100ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+    0%{
+        transform:translateY(100px);
+    }
+    25%{
+        transform: translateY(-3000px);
+    }
+
+}
